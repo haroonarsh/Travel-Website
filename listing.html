@@ -10,10 +10,12 @@
 
 <body>
     <nav id="navBar" class="navBar-white">
-        <img src="/images/logo-red.png" class="logo">
+        <a href="index.html">
+            <img src="/images/logo-red.png" class="logo">
+        </a>
         <ul class="nav-links">
-            <li><a href="#" class="active">Popular Places</a></li>
-            <li><a href="#">Travel Outside</a></li>
+            <li><a href="index.html" class="active">Popular Places</a></li>
+            <li><a href="house.html">Travel Outside</a></li>
             <li><a href="#">Online Packages</a></li>
         </ul>
         <a href="#" class="Register-btn">Register Now</a>
@@ -211,10 +213,10 @@
 
 
 <script>
-    var navBar = document.getElementById(navBar);
+    var navBar = document.getElementById("navBar");
 
     function togglebtn(){
-        navBar.classList.toggle(".hidemenu");
+        navBar.classList.toggle("hidemenu");
     }
 </script>
 </body>
